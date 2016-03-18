@@ -1,20 +1,55 @@
 @media only screen and (max-width: 1100px) {
-	.container {
-		width: 80%;
-	}
+		.container {width: 80%;}
 
-	aside {
-		width: 100%
-		clear:both;
-	}
+		.logo {
+				min-width: 100%;
+				height: auto;
+				margin-left: 10px;
+			}
 
+		.nav-main {
+				font-size: 0.9em;
+				width: 100%;
+				margin-left: 10px;
+			}
+
+		.nav-main li {
+				padding: 0 5px;
+			}
+
+		.nav-main li:after {
+				content: ""; /*adding this character*/
+				padding-left: 5px;
+			}
+
+		.banner {
+				height: 100px;
+				margin-top: 10px;
+			}
+
+		.feature h2 {font-size: 30px;}
+		.feature h3 {font-size: 20px;}
+		.container {width: 100%;}
+
+	/* Secton: Content */
+
+		.content h3 {
+				font-size: 20px;
+				margin-left: 10px;
+			}
+
+		.content p {margin-left: 10px;}
+
+		.box h3 {font-size: 20px;}
+
+}
+
+
+
+
+@media only screen and (max-width: 490px){
 	.nav-main {
-		width: auto;
+		font-size: 0.7em;
+		width: 100%;
 	}
-
-	.nav-main li a {
-		padding: 10px;
-	}
-
-
 }

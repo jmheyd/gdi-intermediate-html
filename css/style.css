@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Noto Sans', sans-serif;
 }
 p {
 
@@ -18,8 +18,8 @@ a:active {
 }
 
 h1 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 40px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 35px;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
 
@@ -32,6 +32,7 @@ h1 a {
 
 
 h2 {
+
 
 }
 
@@ -61,10 +62,11 @@ header {
 	list-style-type: none;
 	padding-left: 0;
 }
+
 .nav-main li {
 	display: inline-block;
-	padding: 0 15px;
-	margin-top: 15px;
+	padding: 0 10px;
+	margin-top: 30px;
 }
 
 .nav-main li:first-child {
@@ -86,7 +88,7 @@ header {
 .logo {
 	width: 300px;
 	float: left;
-	margin-top: 0px;
+	margin-top: 20px;
 
 }
 
@@ -94,13 +96,14 @@ header {
 .container {
 	width: 960px;
 	margin: 0 auto;
+	margin-bottom: 40px;
 }
 
 /* Section: Banner + Feature */
 .banner {
 	background: url("../images/fresh_spring_background_197813.jpg") no-repeat scroll center center/ cover;
 	/*background: url("http://placehold.it/1500x300") no-repeat scroll center center / cover;*/
-	min-height: 250px;
+	height: 250px;
 	box-shadow: 10px 2px 6px rgba(0, 0, 0, 0.4);
 	margin-top: 25px;
 }
@@ -120,7 +123,7 @@ header {
 	font-size: 40px;
 	color: white;
 	text-transform: uppercase;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Arimo', sans-serif;
 }
 
 .feature h3 {
@@ -131,6 +134,7 @@ header {
 .feature p {
 	font-size: 15px;
 	padding-bottom: 20px;
+	line-height: 10px;
 }
 
 .feature button {
@@ -143,6 +147,7 @@ header {
    display: inline-block;
    font-size: 16px;
    border-radius: 10px;
+   text-transform: uppercase;
 }
 
 /* Secton: Content */
@@ -156,6 +161,7 @@ header {
 	padding-bottom: 15px;
 }
 
+
 main {
 	background-color: white;
 	float: left;
@@ -163,8 +169,10 @@ main {
 	margin-right: 30px;
 }
 
+
 aside img {
 	width: 100%;
+	height: auto;
 }
 aside {
 	background-color: white;
@@ -192,7 +200,9 @@ aside ul {
 	color: black;
 	width: 290px;
 	margin-right: 30px;
+	margin-bottom: 20px;
 	float: left;
+	margin-top: 20px;
 }
 
 .box button {
@@ -205,6 +215,8 @@ aside ul {
    display: inline-block;
    font-size: 20px;
    border-radius: 5px;
+   margin-top: 15px;
+   text-transform: uppercase;
 
 }
 
@@ -217,12 +229,25 @@ footer {
 	clear: both;
 	background: rgb(85, 128, 0);
 	padding-top: 20px;
+	text-align: center;
+}
+footer h2 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+ }
+
+footer p {
+	padding-bottom: 20px;
 }
 
+footer h4 {
+	padding-bottom: 20px;
+}
 
 footer ul {
 	list-style-type: none;
 	padding-left: 0;
+	padding-bottom: 20px;
 }
 
 footer li {
@@ -242,6 +267,8 @@ footer li:after {
 footer li:last-child:after {
 	content: "";
 }
+
+
 
 .copyright {
 	text-align: center;
